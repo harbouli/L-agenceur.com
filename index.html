@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <body>
+        <div class="w-11/12 mx-auto h-80 bg-[#e1e1e1]">
+            <div class="flex  justify-between">
+                <!-- Left Column (Buttons, Title, Subtitle, Date) -->
+                <div class=" px-5 py-6 relative">
+                    <div class="flex gap-3">
+                        <div class="mb-4 flex">
+                            <button class="bg-[#D8CFF3] text-[#613BD3] px-4  font-bold rounded-full p-1">
+                                Tous nos articles
+                            </button>
+                        </div>
+                        <div class="mb-4">
+                            <button class="bg-[#00000000] text-black border-2 px-4  border-gray-400 font-bold rounded-full  p-1">
+                                Appel à projets
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-semibold"> Quatorze nouveaux décors pour Polyrey</h2>
+                        <p class=" text-lg font-thin text-black">Di artikel ini saya membuat daftar hal hal yang bisa digunakan</p>
+                        <p class="text-sm text-gray-500">Juli 17, 2023</p>
+                    </div>
+                    <div class="swiper-pagination text-start ml-4 "></div>
+                </div>
+
+                <!-- Right Column (Image Slider) -->
+                <div class="w-1/2 ">
+                    <div class="swiper-container overflow-hidden ">
+                        <div class="swiper-wrapper h-80">
+                            <div class="swiper-slide"><img class="bg-cover" src="image.jpg" alt="Image 1"></div>
+                            <div class="swiper-slide"><img class="bg-cover" src="image.jpg" alt="Image 2"></div>
+                            <div class="swiper-slide"><img class="bg-cover" src="image.jpg" alt="Image 3"></div>
+                            <div class="swiper-slide"><img class="bg-cover" src="image.jpg" alt="Image 3"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var mySwiper = new Swiper('.swiper-container', {
+                    // Optional: Customize options here
+                    loop: true, // Set to true for a continuous loop
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev'
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true // Enable pagination clickable
+                    },
+                });
+            });
+
+
+        </script>
+    </body>
+
+</html>
