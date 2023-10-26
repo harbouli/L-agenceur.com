@@ -19,124 +19,96 @@
 </head>
 
 
-    <body>
-        <div class="w-11/12 mx-auto pb-4 h-auto lg:h-80 bg-[#e1e1e1] rounded-md">
-            <div class="flex  justify-between flex-col-reverse lg:flex-row">
-                <!-- Left Column (Buttons, Title, Subtitle, Date) -->
-                <div class=" px-5 py-6 relative">
-                    <div class="flex gap-3">
-                        <div class="mb-4 flex">
-                            <button
-                                class="bg-[#D8CFF3] text-[#613BD3] hover:bg-[#a285f8] transition-all duration-500 px-4  font-bold rounded-full p-1">
-                                Tous nos articles
-                            </button>
-                        </div>
-                        <div class="mb-4">
-                            <button
-                                class="bg-[#00000000] hover:bg-[#0000002f] transition-all duration-500 text-black border-2 px-4  border-gray-400 font-bold rounded-full  p-1">
-                                Appel à projets
-                            </button>
-                        </div>
-                    </div>
-                    <div>
-                        <a href="#">
-                            <h2 id="article-title" class="text-2xl font-semibold animate-fade-in active"> </h2>
-                        </a>
-                        <p id="article-description" class=" text-lg font-thin text-black animate-fade-in active">Di artikel ini saya membuat
-                            </p>
-                        <p id="article-date" class="text-sm text-gray-500 lg:mt-4 mt-2 mb-6 lg:mb-0"></p>
-                    </div>
-                    <div class="swiper-pagination text-start ml-4 "></div>
+<body>
+    <div class="justify-center flex items-center w-full h-screen
+    flex-col">
+        <!-- bottons categories  -->
+        <div class="flex gap-4 w-11/12">
+            <button
+                class="bg-[#D8CFF3] text-[#613BD3] hover:bg-[#a285f8] transition-all duration-500 px-4  font-bold rounded-full p-1">
+                Select Category 1
+            </button>
+            <button
+                class="bg-transparent text-blac hover:bg-[#00000030] transition-all border-2 border-gray-400 duration-500 px-4  font-bold rounded-full p-1">
+                Select Category 2
+            </button>
+            <button
+                class="bg-transparent text-blac hover:bg-[#00000030] transition-all border-2 border-gray-400 duration-500 px-4  font-bold rounded-full p-1">
+                Select Category 3
+            </button>
+            <button
+                class="bg-transparent text-blac hover:bg-[#00000030] transition-all border-2 border-gray-400 duration-500 px-4  font-bold rounded-full p-1">
+                Select Category 4
+            </button>
+            <button
+                class="bg-transparent text-blac hover:bg-[#00000030] transition-all border-2 border-gray-400 duration-500 px-4  font-bold rounded-full p-1">
+                Select Category 5
+            </button>
+            <button
+                class="bg-transparent text-blac hover:bg-[#00000030] transition-all border-2 border-gray-400 duration-500 px-4  font-bold rounded-full p-1">
+                Select Category 6
+            </button>
+        </div>
+        <!-- categoty name  -->
+        <div class="w-11/12 my-12">
+            <h2 class="text-2xl font-bold text-[#221B1B]">Médias & Communication <span class="text-black">></span> Appel
+                à projets</h2>
+        </div>
+        <!-- categorical artical -->
+        <div class="flex w-11/12 justify-between">
+            <div class=" w-1/6 h-96 flex flex-col gap-2 ">
+                <a href="#">
+                    <img src="articl.png" alt="aricle" class=' object-cover w-full h-96' />
+                </a>
+                <div class=" w-max   flex items-center justify-center px-4 rounded-full border-2 border-gray-400  ">
+                    <p class=" uppercase ">Interview</p>
                 </div>
-
-                <!-- Right Column (Image Slider) -->
-                <div class=" w-full lg:w-1/2 ">
-                    <div class="swiper-container overflow-hidden  h-80 ">
-                        <div class="swiper-wrapper h-80">
-                            <div class="swiper-slide" data-slide-id="1"><img class="object-contain h-full w-full"
-                                    src="image.jpg" alt="Image 1"></div>
-                            <div class="swiper-slide" data-slide-id="2"><img class="object-contain h-full w-full"
-                                    src="image2.jpg" alt="Image 2"></div>
-                            <div class="swiper-slide" data-slide-id="3"><img class="object-contain h-full w-full"
-                                    src="image3.jpg" alt="Image 3"></div>
-
-                        </div>
-                        <button
-                            class="bg-[#00000056] bottom-4 border-2 font-bold text-sm text-white border-[#00000060] hover:bg-[#00000084] transition-all duration-500 absolute z-10 right-4 py-2 uppercase px-7">Non
-                            classé</button>
-                    </div>
+                <div class="  ">
+                    <a href="#" class="text-black font-semibold text-xl  ">Entretien avec Philippe Denavit, président du
+                        groupe Malvaux</a>
                 </div>
             </div>
+            <div class=" w-1/6 h-96 flex flex-col gap-2 ">
+                <a href="#">
+                    <img src="articl.png" alt="aricle" class=' object-cover w-full h-96' />
+                </a>
+                <div class=" w-max   flex items-center justify-center px-4 rounded-full border-2 border-gray-400  ">
+                    <p class=" uppercase ">Interview</p>
+                </div>
+                <div class="  ">
+                    <a href="#" class="text-black font-semibold text-xl  ">Entretien avec Philippe Denavit, président du
+                        groupe Malvaux</a>
+                </div>
+            </div>
+            <div class=" w-1/6 h-96 flex flex-col gap-2 ">
+                <a href="#">
+                    <img src="articl.png" alt="aricle" class=' object-cover w-full h-96' />
+                </a>
+                <div class=" w-max   flex items-center justify-center px-4 rounded-full border-2 border-gray-400  ">
+                    <p class=" uppercase ">Interview</p>
+                </div>
+                <div class="  ">
+                    <a href="#" class="text-black font-semibold text-xl  ">Entretien avec Philippe Denavit, président du
+                        groupe Malvaux</a>
+                </div>
+            </div>
+            <div class=" w-1/6 h-96 flex flex-col gap-2 ">
+                <a href="#">
+                    <img src="ads.png" alt="aricle" class=' object-cover w-full h-96' />
+                </a>
+               
+                <div class="  ">
+                    <a href="#" class="text-black font-semibold text-xl  ">Abonnez-vous à L'agenceur et laissez-vous inspirer à chaque page.</a>
+                </div>
+            </div>
+
+
         </div>
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                var mySwiper = new Swiper('.swiper-container', {
-                    loop: true,
-                    navigation: {
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev'
-                    },
-                    pagination: {
-                        el: '.swiper-pagination',
-                        clickable: true
-                    }
-                });
+    </div>
+    <script>
 
-                var slideData = [
-                    {
-                        id: 1,
-                        title: "Title for Slide 1",
-                        description: "Description for Slide 1",
-                        date: "Oct 17, 2023"
+    </script>
 
-                    },
-                    {
-                        id: 2,
-                        title: "Title for Slide 2",
-                        description: "Description for Slide 2",
-                        date: "Sept 12, 2023"
-
-                    },
-                    {
-                        id: 3,
-                        title: "Title for Slide 3",
-                        description: "Description for Slide 3",
-                        date: "Juli 17, 2023"
-                    },
-
-                ];
-
-                function updateSlideContent(slideId) {
-                    var matchingSlide = slideData.find((slide) => slide.id === slideId);
-
-                    if (matchingSlide) {
-                        document.getElementById('article-title').classList.remove('active');
-                        document.getElementById('article-description').classList.remove('active');
-                        document.getElementById('article-date').classList.remove('active');
-
-                        setTimeout(function () {
-                            document.getElementById('article-title').textContent = matchingSlide.title;
-                            document.getElementById('article-description').textContent = matchingSlide.description;
-                            document.getElementById('article-date').textContent = matchingSlide.date;
-
-                            document.getElementById('article-title').classList.add('active');
-                            document.getElementById('article-description').classList.add('active');
-                            document.getElementById('article-date').classList.add('active');
-                        }, 500); 
-                    }
-                }
-                updateSlideContent(1);
-
-                mySwiper.on('slideChange', function () {
-                    var activeSlide = mySwiper.slides[mySwiper.activeIndex];
-                    var slideId = activeSlide.getAttribute('data-slide-id');
-
-                    updateSlideContent(parseInt(slideId));
-                });
-            });
-        </script>
-
-    </body>
+</body>
 
 </html>
