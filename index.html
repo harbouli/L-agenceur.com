@@ -20,12 +20,12 @@
 
 
 <body>
-    <div class="justify-center flex items-center w-full h-screen
+    <div class="justify-center flex items-center w-full h-full
     flex-col">
         <!-- bottons categories  -->
-        <div class="flex gap-4 w-11/12">
+        <div class="flex gap-4  overflow-x-auto lg:overflow-auto py-2 whitespace-nowrap w-11/12">
             <button
-                class="bg-[#D8CFF3] text-[#613BD3] hover:bg-[#a285f8] transition-all duration-500 px-4  font-bold rounded-full p-1">
+                class="bg-[#D8CFF3]  text-[#613BD3] hover:bg-[#a285f8] transition-all duration-500 px-4  font-bold rounded-full p-1  ">
                 Select Category 1
             </button>
             <button
@@ -51,12 +51,12 @@
         </div>
         <!-- categoty name  -->
         <div class="w-11/12 my-12">
-            <h2 class="text-2xl font-bold text-[#221B1B]">Médias & Communication <span class="text-black">></span> Appel
+            <h2 class="lg:text-2xl text-xl font-bold text-[#221B1B]">Médias & Communication <span class="text-black">></span> Appel
                 à projets</h2>
         </div>
         <!-- categorical artical -->
-        <div class="flex w-11/12 justify-between">
-            <div class=" w-1/6 h-96 flex flex-col gap-2 ">
+        <div class="flex sm:w-11/12 w-full justify-between flex-col h-auto gap-6 lg:gap0 lg:flex-row">
+            <div class=" w-full lg:w-1/6 lg:h-96 pb-4 px-2 lg:px-0 rounded-lg flex flex-col gap-2  bg-white drop-shadow-lg">
                 <a href="#">
                     <img src="articl.png" alt="aricle" class=' object-cover w-full h-96' />
                 </a>
@@ -68,7 +68,7 @@
                         groupe Malvaux</a>
                 </div>
             </div>
-            <div class=" w-1/6 h-96 flex flex-col gap-2 ">
+            <div class=" w-full lg:w-1/6 lg:h-96 pb-4 px-2 lg:px-0 rounded-lg flex flex-col gap-2  bg-white drop-shadow-lg">
                 <a href="#">
                     <img src="articl.png" alt="aricle" class=' object-cover w-full h-96' />
                 </a>
@@ -80,7 +80,7 @@
                         groupe Malvaux</a>
                 </div>
             </div>
-            <div class=" w-1/6 h-96 flex flex-col gap-2 ">
+            <div class=" w-full lg:w-1/6 lg:h-96 pb-4 px-2 lg:px-0 rounded-lg flex flex-col gap-2  bg-white drop-shadow-lg">
                 <a href="#">
                     <img src="articl.png" alt="aricle" class=' object-cover w-full h-96' />
                 </a>
@@ -92,15 +92,20 @@
                         groupe Malvaux</a>
                 </div>
             </div>
-            <div class=" w-1/6 h-96 flex flex-col gap-2 ">
+            <div class=" w-full lg:w-1/6 lg:h-96 pb-4 px-2 lg:px-0 rounded-lg flex flex-col gap-2  bg-white drop-shadow-lg">
                 <a href="#">
                     <img src="ads.png" alt="aricle" class=' object-cover w-full h-96' />
                 </a>
-               
+                <div class=" w-max flex items-center justify-center px-4 rounded-full border-2 border-gray-400  ">
+                    <p class=" uppercase ">Interview</p>
+                </div>
                 <div class="  ">
-                    <a href="#" class="text-black font-semibold text-xl  ">Abonnez-vous à L'agenceur et laissez-vous inspirer à chaque page.</a>
+                    <a href="#" class="text-black font-semibold text-xl  ">Entretien avec Philippe Denavit, président du
+                        groupe Malvaux</a>
                 </div>
             </div>
+          
+           
 
 
         </div>
