@@ -34,3 +34,23 @@
 .animate-fade-in.active {
     opacity: 1;
 }
+
+.active-cat {
+    background-color: #00000000;
+    color: #000;
+    border: none;
+    
+}
+.active-cat:hover {
+    background-color: #00000030;
+    
+}
+.active-cat {
+    background-color: #D8CFF3;
+    color: #613BD3;
+    border: none;
+    
+}
+.active-cat:hover{
+    background-color: #a285f8;
+}
