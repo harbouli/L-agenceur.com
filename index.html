@@ -1,69 +1,117 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <link rel="stylesheet" href="../styles.css">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../styles.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        clifford: '#da373d',
-                    }
-                }
-            }
-        }
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
     </script>
-</head>
+  </head>
 
-
-<body>
+  <body>
     <div class="w-11/12 mx-auto">
-        <h2 class="text-4xl font-bold">Nos magazines</h2>
-        <div class=" mt-11 grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            <div class="item w-56  flex-col flex gap-1">
-                <img class="w-full object-cover" src="./l_agenceur.png" alt="" srcset="">
-                <h3 class="text-xl  font-semibold"> L’agenceur n°68</h3>
-                <p class="text-sm text-[#777777]">Spécial Espaces de Travail</p>
-                <button class="bg-[#6B329E] text-sm w-full p-2 whitespace-nowrap font-bold text-white">ACHETER LE
-                    NUMÉRO</button>
+      <h1 class="text-3xl lg:text-xl text-gray-400 uppercase my-8">
+        Appel à projets
+      </h1>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6 lg:gap-0"
+      >
+      <!-- First Bolck -->
+        <div class="relative overflow-hidden rounded-md lg:col-span-1 lg:h-72 lg:rounded-none">
+          <a href="#">
+            <img
+              src="./div.t-background-cover.png"
+              class="aspect-square lg:aspect-[3/5]  object-cover w-full"
+              alt="backgroundCover"
+            />
+            <div
+              class="absolute top-4 left-4 px-4 bg-white rounded-full py-1 border border-gray-400"
+            >
+              <h2 class="uppercase font-medium ">Appel à projets</h2>
             </div>
-            <div class="item w-56  flex-col flex gap-1">
-                <img class="w-full object-cover" src="./l_agenceur.png" alt="" srcset="">
-                <h3 class="text-xl  font-semibold"> L’agenceur n°68</h3>
-                <p class="text-sm text-[#777777]">Spécial Espaces de Travail</p>
-                <button class="bg-[#6B329E] text-sm w-full p-2 whitespace-nowrap font-bold text-white">ACHETER LE
-                    NUMÉRO</button>
+            <div class="absolute bottom-4 left-4 w-3/4">
+              <h2 class="text-white font-medium text-4xl lg:text-2xl">
+                Le panneau Acoustic Sense par Miester
+              </h2>
             </div>
-            <div class="item w-56  flex-col flex gap-1">
-                <img class="w-full object-cover" src="./l_agenceur.png" alt="" srcset="">
-                <h3 class="text-xl  font-semibold"> L’agenceur n°68</h3>
-                <p class="text-sm text-[#777777]">Spécial Espaces de Travail</p>
-                <button class="bg-[#6B329E] text-sm w-full p-2 whitespace-nowrap font-bold text-white">ACHETER LE
-                    NUMÉRO</button>
-            </div>
-            <div class="item w-56  flex-col flex gap-1">
-                <img class="w-full object-cover" src="./l_agenceur.png" alt="" srcset="">
-                <h3 class="text-xl  font-semibold"> L’agenceur n°68</h3>
-                <p class="text-sm text-[#777777]">Spécial Espaces de Travail</p>
-                <button class="bg-[#6B329E] text-sm w-full p-2 whitespace-nowrap font-bold text-white">ACHETER LE
-                    NUMÉRO</button>
-            </div>
-            <div class="item w-56  flex-col flex gap-1">
-                <img class="w-full object-cover" src="./l_agenceur.png" alt="" srcset="">
-                <h3 class="text-xl  font-semibold"> L’agenceur n°68</h3>
-                <p class="text-sm text-[#777777]">Spécial Espaces de Travail</p>
-                <button class="bg-[#6B329E] text-sm w-full p-2 whitespace-nowrap font-bold text-white">ACHETER LE
-                    NUMÉRO</button>
-            </div>
-           
+          </a>
         </div>
+        <!-- Secand Block -->
+        <div class="relative overflow-hidden rounded-md lg:rounded-none lg:col-span-5 lg:h-72">
+          <a href="#">
+            <img
+              src="./div.t-background-cover.png"
+              class="lg:aspect-[5/2] aspect-square object-cover w-full"
+              alt="backgroundCover"
+            />
+            <div
+              class="absolute top-4 left-4 px-4 bg-white rounded-full py-1 border border-gray-400"
+            >
+              <h2 class="uppercase font-medium">Appel à projets</h2>
+            </div>
+            <div class="absolute bottom-4 left-4 w-3/4">
+              <h2 class="text-white font-medium text-4xl">
+                Le panneau Acoustic Sense par Miester
+              </h2>
+            </div>
+          </a>
+        </div>
+
+        <!-- 3th Block -->
+        <div class="relative overflow-hidden rounded-md lg:col-span-3 lg:h-72 lg:rounded-none">
+              <a href="#">
+            <img
+              src="./div.t-background-cover.png"
+              class="aspect-square lg:aspect-[3/2] object-cover w-full"
+              alt="backgroundCover"
+            />
+            <div
+              class="absolute top-4 left-4 px-4 bg-white rounded-full py-1 border border-gray-400"
+            >
+              <h2 class="uppercase font-medium lg:text-xs">Appel à projets</h2>
+            </div>
+            <div class="absolute bottom-4 left-4 w-1/2">
+              <h2 class="text-white font-medium text-4xl lg:text-2xl">
+                Le panneau Acoustic Sense par Miester
+              </h2>
+            </div>
+        </a>
+          </div>
+        <!-- 4th Block -->
+        <div class="relative overflow-hidden rounded-md lg:col-span-3 lg:h-72 lg:rounded-none">
+              <a href="#">
+            <img
+              src="./div.t-background-cover.png"
+              class="aspect-square lg:aspect-[3/2] object-cover w-full"
+              alt="backgroundCover"
+            />
+            <div
+              class="absolute top-4 left-4 px-4 bg-white rounded-full py-1 border border-gray-400"
+            >
+              <h2 class="uppercase font-medium lg:text-xs">Appel à projets</h2>
+            </div>
+            <div class="absolute bottom-4 left-4 w-1/2">
+              <h2 class="text-white font-medium text-4xl lg:text-2xl">
+                Le panneau Acoustic Sense par Miester
+              </h2>
+            </div>
+        </a>
+          </div>
+          
+      </div>
     </div>
-    <script>
-
-    </script>
-
-</body>
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </body>
 </html>
