@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="../styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
+
     <script>
         var tailwindConfig = {
             theme: {
@@ -39,14 +40,51 @@
     <div class="flex">
         <aside class="w-1/4  p-8 hidden lg:block mr-2 border-2 border-r-gray-200">
             <button
-                class="border-2  border-gray-400 px-6 py-1 rounded-lg text-xl font-medium uppercase text-gray-400">date</button>
+                class="border-2 flex items-center gap-4  border-gray-400 px-2 py-1 rounded-lg text-xl font-medium uppercase text-gray-400">date
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+                </svg>
+
+            </button>
 
             <h2 class="my-8 font-bold text-xl uppercase text-gray-400">Catégories</h2>
-            <ul>
-                <li><a href="">Médias & Communication</a></li>
-                <li><a href="">Espaces & Aménagements</a></li>
-                <li><a href="">Construction & Rénovation</a></li>
-                <li><a href="">Mobilier</a></li>
+            <ul class="flex flex-col gap-8">
+                <li><a href="#" class="font-bold py-2 flex items-center justify-between">Médias & Communication <svg
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </a></li>
+                <li><a href="#" class="font-bold py-2 flex items-center justify-between">Espaces & Aménagements <svg
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </a></li>
+                <li><a href="#" class="font-bold py-2 flex items-center justify-between">Construction & Rénovation <svg
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </a></li>
+                <li><a href="#" class="font-bold py-2 flex items-center justify-between">Design & Mobilier <svg xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </a></li>
+                <li><a href="#" class="font-bold py-2 flex items-center justify-between">Technologie & Outils <svg xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </a></li>
+                <li><a href="#" class="font-bold py-2 flex items-center justify-between">Services & Entreprises <svg
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </a></li>
             </ul>
         </aside>
         <main
