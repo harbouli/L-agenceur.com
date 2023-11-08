@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
+        var tailwindConfig = {
             theme: {
                 extend: {
                     colors: {
@@ -19,27 +19,28 @@
 </head>
 
 <body>
-    <div class="w-11/12 mx-auto ">
+    <div class="container mx-auto">
         <div class="flex flex-wrap">
-            <img src="./logo.png" class="w-48" alt="logo">
-            <img src="./logo.png" class="w-48" alt="logo">
-            <img src="./logo.png" class="w-48" alt="logo">
-            <img src="./logo.png" class="w-48" alt="logo">
-            <img src="./logo.png" class="w-48" alt="logo">
-            <img src="./logo.png" class="w-48" alt="logo">
+            <img src="../logo.png" class="w-48" alt="Logo">
+            <img src="../logo.png" class="w-48" alt="Logo">
+            <img src="../logo.png" class="w-48" alt="Logo">
+            <img src="../logo.png" class="w-48" alt="Logo">
+            <img src="../logo.png" class="w-48" alt="Logo">
+            <img src="../logo.png" class="w-48" alt="Logo">
         </div>
         <img src="agenceur.png" alt="Logo" class="w-1/3 lg:w-56 my-12" />
+        
         <!-- Footer -->
-        <div class=" flex flex-col lg:flex-row lg:gap-48">
-            <div class=" mt-6 flex flex-col gap-2">
+        <div class="flex flex-col lg:flex-row lg:gap-48">
+            <div class="mt-6 flex flex-col gap-2">
                 <h3 class="text-2xl font-medium mb-2">Agenceur</h3>
                 <a href="#">Accueil</a>
-                <a href="#">Non Articles</a>
+                <a href="#">Nos Articles</a>
                 <a href="#">Le Magazine</a>
                 <a href="#">Communiquer</a>
                 <a href="#">Partenaires Negoce</a>
             </div>
-            <div class=" mt-6 flex flex-col gap-2">
+            <div class="mt-6 flex flex-col gap-2">
                 <h3 class="text-2xl font-medium mb-2">Réseaux bois news média</h3>
                 <a href="#">Bois News Media</a>
                 <a href="#">Eshop</a>
@@ -48,16 +49,18 @@
                 <a href="#">Toiture Magazine</a>
                 <a href="#">WoodPartners</a>
             </div>
-            <div class=" mt-6 flex flex-col gap-2">
+            <div class="mt-6 flex flex-col gap-2">
                 <h3 class="text-2xl font-medium mb-2">Nous contacter</h3>
                 <a href="#">L’équipe</a>
             </div>
         </div>
-        <form class="bg-[#55555548] flex rounded-lg  lg:w-1/3 w-full justify-between px-2 py-1 mt-6">
-            <input type="email" name="subscribe" id="subscribe" class="bg-transparent border-none placeholder:text-[#555] " placeholder="entrez votre mail">
-            <input type="submit" value="S’abonner" class="bg-white text-[#555] font-bold p-2 rounded-lg">
+        
+        <form class="bg-gray-300 bg-opacity-70 flex rounded-lg lg:w-1/3 w-full justify-between px-2 py-1 mt-6">
+            <input type="email" name="subscribe" id="subscribe" class="bg-transparent border-none placeholder:text-gray-555" placeholder="Entrez votre e-mail">
+            <input type="submit" value="S’abonner" class="bg-white text-gray-555 font-bold p-2 rounded-lg">
         </form>
     </div>
+    
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 

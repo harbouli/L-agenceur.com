@@ -54,3 +54,8 @@
 .active-cat:hover{
     background-color: #a285f8;
 }
+
+.scroller {
+
+    scrollbar-width: none;
+  }
